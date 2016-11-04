@@ -1,0 +1,26 @@
+.summary{
+	background-color: blue;
+	color: white;
+}
+img{
+}
+@media (min-width: 600px){
+	.summary{
+	background-color: red;
+	color: black;
+	display: inline-block;
+	width: 48%;
+	margin: 1%;
+	height: 30%;
+}
+img{
+	float: right;
+	display: inline;
+	width: 48%;
+	margin: 1%
+	height: 30%;
+}
+p{
+	display: block;
+}
+}
